@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Hello-blue)
 
-# Hello-rails-react
+# Hello-rails-backend
 
 > This is the hello api. Built with Rails
 
@@ -13,7 +13,7 @@
 
 # Deployed on Heroku
  [https://chello-frontend.herokuapp.com/](https://chello-frontend.herokuapp.com/)
- 
+
 ## Endpoints
 - /api/v1/greetings
 
@@ -62,11 +62,6 @@ rails db:seed
 ## Run linters
 ```
 rubocop -A
-```
-
-## Start webpacker dev server to compile assets
-```
-./bin/webpack-dev-server
 ```
 
 ## Start rails server (puma)
