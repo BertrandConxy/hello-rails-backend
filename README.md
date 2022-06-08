@@ -13,6 +13,9 @@
 
 # Deployed on Heroku
  [https://chello-frontend.herokuapp.com/](https://chello-frontend.herokuapp.com/)
+ 
+# Front-end repo
+[Hello-react-frontend](https://github.com/BertrandConxy/hello-react-frontend)
 
 ## Endpoints
 - /api/v1/greetings
