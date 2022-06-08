@@ -18,6 +18,9 @@ gem 'puma', '~> 5.0'
 # Serialize data to JSON easily with Active Model Serializers
 gem 'active_model_serializers'
 
+# rack-cors gem for CORS support
+gem 'rack-cors'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
