@@ -1,24 +1,105 @@
-# README
+![](https://img.shields.io/badge/Hello-blue)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Hello-rails-react
 
-Things you may want to cover:
+> This is the hello api. Built with Rails
 
-* Ruby version
+# Built with
+- Ruby
+- Ruby on Rails
+- Rubocop
+- Gems
+  - rack-cors
 
-* System dependencies
+# Deployed on Heroku
+ [https://chello-frontend.herokuapp.com/](https://chello-frontend.herokuapp.com/)
+ 
+## Endpoints
+- /api/v1/greetings
 
-* Configuration
 
-* Database creation
+# Get Started
+Follow these steps below:
 
-* Database initialization
+## Pre-requisites
 
-* How to run the test suite
+```bash
+- Ruby
+- Rails
+- PostgreSQL
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+## Setup
+Clone the repo and run bundle install in the command line to install the dependencies
 
-* Deployment instructions
+```bash
+$ git clone https://github.com/BertrandConxy/hello-rails-backend.git
+$ cd hello-rails-backend
+```
 
-* ...
+## Install gems with:
+
+```bash
+$ bundle install
+```
+
+## Install style linters with
+```bash
+$ npm install
+```
+
+## Play with the code
+```
+rails c
+```
+
+## Populate the db with dummy data
+```
+rails db:migrate
+rails db:seed
+```
+
+## Run linters
+```
+rubocop -A
+```
+
+## Start webpacker dev server to compile assets
+```
+./bin/webpack-dev-server
+```
+
+## Start rails server (puma)
+
+```bash
+$ rails server
+```
+
+Open [http://localhost:3000/](http://localhost:3000/) in your browser
+
+
+## Author
+
+👤 **Bertrand Mutangana Ishimwe**
+
+- GitHub: [@BertrandConxy](https://github.com/BertrandConxy)
+- Twitter: [@Bconxy](https://twitter.com/BertrandMutanga)
+- LinkedIn: [Bertrand Mutangana Ishimwe](https://www.linkedin.com/in/bertrandmutangana)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+- Many thanks to Microverse
+- Thanks to everyone whose ideas were used to achieve this project
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
